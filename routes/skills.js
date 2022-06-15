@@ -7,7 +7,7 @@ const router = Router()
 router.get('/', skillsController.index);
 router.get('/new', skillsController.new);
 
-router.post('/create', skillsController.create);
+router.post('/', skillsController.create);
 
 export { 
   router

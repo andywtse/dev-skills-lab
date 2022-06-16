@@ -6,6 +6,7 @@ const router = Router()
 /* GET home page. */
 router.get('/', skillsController.index);
 router.get('/new', skillsController.new);
+router.get('/:id', skillsController.show);
 
 router.post('/', skillsController.create);
 
